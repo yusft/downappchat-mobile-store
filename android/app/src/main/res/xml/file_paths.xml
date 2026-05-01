@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Dahili depolama — getApplicationDocumentsDirectory() -->
+    <files-path name="files" path="." />
+    
+    <!-- Harici depolama — getExternalStorageDirectory() -->
+    <external-path name="external" path="." />
+    
+    <!-- Cache — getTemporaryDirectory() -->
+    <cache-path name="cache" path="." />
+    
+    <!-- Harici cache -->
+    <external-cache-path name="external_cache" path="." />
+    
+    <!-- Harici dosyalar -->
+    <external-files-path name="external_files" path="." />
+</paths>
